@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fight Night Party - Task 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="belt">AITU FIGHT NIGHT</div>
+  <h1>The Party in Motion</h1>
+  <p>Spotlight a case, click a guest, move guests between rooms, sort the corners by time.</p>
+</header>
+<main>
+  <section class="panel">
+    <h2>Fight card <button type="button" id="clear">Clear</button></h2>
+    <div id="cases"></div>
+  </section>
+  <section id="result" class="result">Choose a case to start the investigation.</section>
+  <div id="legend">
+    <span><i class="dot color-red"></i>red</span>
+    <span><i class="dot color-blue"></i>blue</span>
+    <span><i class="dot color-green"></i>green</span>
+    <span><i class="dot color-black"></i>black</span>
+    <span><i class="dot color-yellow"></i>yellow</span>
+    <span><i class="dot color-purple"></i>purple</span>
+    <span>📱 phone</span><span>👓 glasses</span><span>🎒 bag</span><span>☕ cup</span><span>🍰 cake crumbs</span>
+    <span>⏱ arrival time</span><span><b class="mini-badge">AITU</b> AITU student</span>
+  </div>
+  <div id="house"></div>
+</main>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+<script src="js/cases.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
